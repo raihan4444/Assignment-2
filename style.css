@@ -3,8 +3,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: aliceblue;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .logo{
     font-size: 2em;
@@ -65,7 +65,9 @@ section{margin-top: 90px;}
     font-weight: 700;
 }
 /*2nd section*/
-
+.container{
+     margin: 30px;
+}
 
 .product-box{
     box-shadow: 5px 5px 5px 5px  #d8d6d6;
@@ -101,6 +103,9 @@ section{margin-top: 90px;}
 }
 
 /*3rd section*/
+.container-2{
+    margin: 30px;
+}
 .style-btn-2{
     text-decoration: none;
     border-radius: 4px;
@@ -122,3 +127,41 @@ section{margin-top: 90px;}
 }
 
 /*footer*/
+footer{
+    background-color: black;
+    height: auto;
+    width:100%;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   
+}
+.footer-content h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: flex;
+    margin: 1rem 0 3rem 0;
+
+}
+.socials li{
+    margin: 0 20px;
+
+}
