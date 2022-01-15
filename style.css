@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courgette&family=Montserrat:ital,wght@0,300;1,100;1,200;1,300&family=Mukta:wght@200;400&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,300;0,500;1,300;1,500&family=Raleway:ital,wght@0,100;0,200;1,200&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;1,300;1,400;1,500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0em;
+    margin-right: 15px;
+    margin-bottom: 15px;  
+}
+span{
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.icon{
+    font-size: 1.6em;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*1st section*/
+section{margin-top: 90px;}
+.style-tag{
+    font-size: 40px;
+    
+    padding: 20px 20px 20px 20px;
+}
+.half-width{
+    width: 50%;
+    margin-left: 30px;
+}
+.half-width img{
+    width: 70%;
+    padding-left: 2%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat:no-repeat ;
+    
+} 
+.flex-container{
+    display: flex; 
+    margin-bottom: 150px ;
+    
+   
+}
+.style-btn{
+    text-decoration: none;
+    border-radius: 30px;
+    background: linear-gradient(rgb(243, 167, 167), rgb(231, 175, 224));
+    color: rgb(255, 255, 255);
+   
+    padding: 10px 40px;
+    font-weight: 700;
+}
+/*2nd section*/
+
+
+.product-box{
+    box-shadow: 5px 5px 5px 5px  #d8d6d6;
+    border-radius: 20px;
+    height: 500px;
+    width: 350px;
+    margin-bottom: 30px;
+    
+}
+.product-box2{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.our-products{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-column-gap: 24px;
+}
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star.empty{
+    color: rgb(147, 153, 158);
+}
+.fa-star.filled{
+    color: rgb(238, 223, 13);
+}
+.product-img img{
+   width: 300px;
+   height: auto;
+}
+
+/*3rd section*/
+.style-btn-2{
+    text-decoration: none;
+    border-radius: 4px;
+    background: linear-gradient(rgb(48, 44, 44), rgb(31, 27, 30));
+    color: rgb(211, 204, 204);
+   
+    padding: 10px 40px;
+    font-weight: 700;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+}
+.know-us{
+    margin-left: 70px;
+}
+.about-us{
+    margin-right: 70px;
+}
+
+/*footer*/
